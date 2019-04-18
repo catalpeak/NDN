@@ -1,0 +1,133 @@
+router
+
+lf-1	NA	100	100
+lf-2	NA	110	95
+lf-3	NA	115	92
+pr-2	NA	125	90
+lf-5	NA	127	85
+lf-6	NA	135	78
+lf-7	NA	140	74
+lf-8	NA	140	65
+lf-9	NA	140	60
+lf-10	NA	135	50
+lf-11	NA	125	40
+lf-12	NA	120	35
+pr-1	NA	110	30
+lf-14	NA	100	35
+lf-15	NA	90	35
+lf-16	NA	75	45
+lf-17	NA	80	55
+lf-18	NA	65	70
+lf-19	NA	70	75
+lf-20	NA	75	80
+lf-21	NA	80	85
+lf-22	NA	90	90
+erl-1	NA	100	90
+erl-2	NA	113	86
+erp-3	NA	117	83
+erl-4	NA	122	77
+erl-5	NA	130	70
+erl-6	NA	120	59
+erl-7	NA	125	53
+erl-8	NA	115	40
+erp-9	NA	110	37
+erl-10	NA	105	44
+erl-11	NA	100	40
+erl-12	NA	90	45
+erl-13	NA	80	72
+erl-14	NA	92	73
+erl-15	NA	96	80
+erl-16	NA	95	85
+erl-17	NA	100	90
+cr-1	NA	103	80
+cr-2	NA	105	77
+cr-3	NA	112	75
+cr-4	NA	117	55
+cr-5	NA	105	52
+cr-6	NA	100	47
+cr-7	NA	90	48
+cr-8	NA	93	55
+cr-9	NA	90	60
+cr-10	NA	100	70
+cr-11	NA	110	70
+cr-12	NA	113	65
+cr-13	NA	102	55
+
+link
+
+lf-1	erl-1	10Mbps  1       11ms    100
+lf-2	erl-2	10Mbps  1       11ms    100
+lf-3	erl-2	10Mbps  1       11ms    100
+pr-2	erp-3	10Mbps  1       11ms    100
+lf-5	erl-4	10Mbps  1       11ms    100
+lf-6	erl-4	10Mbps  1       11ms    100
+lf-7	erl-5	10Mbps  1       11ms    100
+lf-8	erl-5	10Mbps  1       11ms    100
+lf-9	erl-6	10Mbps  1       11ms    100
+lf-10	erl-7	10Mbps  1       11ms    100
+lf-11	erl-8	10Mbps  1       11ms    100
+lf-12	erl-8	10Mbps  1       11ms    100
+pr-1	erp-9	10Mbps  1       11ms    100
+lf-14	erl-10	10Mbps  1       11ms    100
+lf-15	erl-11	10Mbps  1       11ms    100
+lf-16	erl-12	10Mbps  1       11ms    100
+lf-17	cr-7	10Mbps  1       11ms    100
+lf-18	erl-13	10Mbps  1       11ms    100
+lf-19	erl-14	10Mbps  1       11ms    100
+lf-20	erl-15	10Mbps  1       11ms    100
+lf-21	erl-16	10Mbps  1       11ms    100
+lf-22	erl-17	10Mbps  1       11ms    100
+erl-1	cr-1	10Mbps  1       11ms    100
+erl-2	cr-2	10Mbps  1       11ms    100
+erp-3	cr-3	10Mbps  1       11ms    100
+erl-4	cr-3	10Mbps  1       11ms    100
+erl-5	cr-3	10Mbps  1       11ms    100
+erl-6	cr-2	10Mbps  1       11ms    100
+erl-7	cr-12	10Mbps  1       11ms    100
+erl-8	cr-5	10Mbps  1       11ms    100
+erp-9	cr-6	10Mbps  1       11ms    100
+erl-10	cr-5	10Mbps  1       11ms    100
+erl-11	cr-6	10Mbps  1       11ms    100
+erl-12	cr-6	10Mbps  1       11ms    100
+erl-13	cr-8	10Mbps  1       11ms    100
+erl-14	cr-10	10Mbps  1       11ms    100
+erl-15	cr-10	10Mbps  1       11ms    100
+erl-16	cr-10	10Mbps  1       11ms    100
+erl-17	cr-1	10Mbps  1       11ms    100
+cr-1	cr-2	10Mbps  1       11ms    100
+cr-1	cr-10	10Mbps  1       11ms    100
+cr-1	cr-9	10Mbps  1       11ms    100
+cr-1	cr-12	10Mbps  1       11ms    100
+cr-1	cr-3	10Mbps  1       11ms    100
+cr-2	cr-10	10Mbps  1       11ms    100
+cr-2	cr-11	10Mbps  1       11ms    100
+cr-2	cr-3	10Mbps  1       11ms    100
+cr-3	cr-13	10Mbps  1       11ms    100
+cr-3	cr-12	10Mbps  1       11ms    100
+cr-3	cr-4	10Mbps  1       11ms    100
+cr-4	cr-5	10Mbps  1       11ms    100
+cr-4	cr-13	10Mbps  1       11ms    100
+cr-5	cr-12	10Mbps  1       11ms    100
+cr-5	cr-2	10Mbps  1       11ms    100
+cr-5	cr-10	10Mbps  1       11ms    100
+cr-5	cr-13	10Mbps  1       11ms    100
+cr-5	cr-8	10Mbps  1       11ms    100
+cr-5	cr-7	10Mbps  1       11ms    100
+cr-5	cr-6	10Mbps  1       11ms    100
+cr-6	cr-12	10Mbps  1       11ms    100
+cr-6	cr-11	10Mbps  1       11ms    100
+cr-6	cr-13	10Mbps  1       11ms    100
+cr-6	cr-9	10Mbps  1       11ms    100
+cr-6	cr-8	10Mbps  1       11ms    100
+cr-7	cr-13	10Mbps  1       11ms    100
+cr-7	cr-8	10Mbps  1       11ms    100
+cr-8	cr-13	10Mbps  1       11ms    100
+cr-8	cr-2	10Mbps  1       11ms    100
+cr-8	cr-10	10Mbps  1       11ms    100
+cr-8	cr-9	10Mbps  1       11ms    100
+cr-9	cr-13	10Mbps  1       11ms    100
+cr-9	cr-10	10Mbps  1       11ms    100
+cr-10	cr-12	10Mbps  1       11ms    100
+cr-10	cr-11	10Mbps  1       11ms    100
+cr-11	cr-12	10Mbps  1       11ms    100
+cr-11	cr-13	10Mbps  1       11ms    100

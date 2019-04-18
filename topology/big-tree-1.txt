@@ -1,0 +1,42 @@
+router
+
+pr-1	NA	25	50
+pr-2	NA	45	50
+erp-1	NA	25	40
+erp-2	NA	45	40
+cr-3	NA	35	30
+cr-2	NA	55	20
+cr-1	NA	15	20
+erl-1	NA	5	10
+erl-2	NA	25	10
+erl-3	NA	45	10
+erl-4	NA	65	10
+lf-1	NA	0	0
+lf-2	NA	10	0
+lf-3	NA	20	0
+lf-4	NA	30	0
+lf-5	NA	40	0
+lf-6	NA	50	0
+lf-7	NA	60	0
+lf-8	NA	70	0
+
+link
+
+pr-1	erp-1	10Mbps  1       11ms    100
+pr-2	erp-2	10Mbps  1       11ms    100
+erp-1	cr-3	10Mbps  1       11ms    100
+erp-2	cr-3	10Mbps  1       11ms    100
+cr-3	cr-1	10Mbps  1       11ms    100
+cr-3	cr-2	10Mbps  1       11ms    100
+cr-1	erl-1	10Mbps  1       11ms    100
+cr-1	erl-2	10Mbps  1       11ms    100
+cr-2	erl-3	10Mbps  1       11ms    100
+cr-2	erl-4	10Mbps  1       11ms    100
+erl-1	lf-1	10Mbps  1       11ms    100
+erl-1	lf-2	10Mbps  1       11ms    100
+erl-2	lf-3	10Mbps  1       11ms    100
+erl-2	lf-4	10Mbps  1       11ms    100
+erl-3	lf-5	10Mbps  1       11ms    100
+erl-3	lf-6	10Mbps  1       11ms    100
+erl-4	lf-7	10Mbps  1       11ms    100
+erl-4	lf-8	10Mbps  1       11ms    100
